@@ -1,0 +1,768 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.Persistent.BaseImpl.EF.v15.2</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.Persistent.BaseImpl.EF.Role">
+
+            <summary>
+                <para>An entity that defines the security role.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.#ctor">
+            <summary>
+                <para> </para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.AddMemberAccessPermission(System.Type,System.String,System.String,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="type">
+		 
+            </param>
+            <param name="memberName">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+            <param name="criteria">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.AddMemberAccessPermission(System.Type,System.String,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="type">
+		 
+            </param>
+            <param name="memberName">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.AddMemberAccessPermission``1(System.String,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="memberName">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.AddMemberAccessPermission``1(System.String,System.String,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="memberName">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+            <param name="criteria">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.AddObjectAccessPermission(System.Type,System.String,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="type">
+		 
+            </param>
+            <param name="criteria">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.AddObjectAccessPermission``1(System.String,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="criteria">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.AutoAssociationPermissions">
+            <summary>
+                <para>Specifies, whether or not the required permissions are automatically configured for associated objects/collections.
+</para>
+            </summary>
+            <value><b>true</b>, if permissions are automatically configured for associations, otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.CanEditModel">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.ChildRoles">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.FindTypePermissionObject(System.Type)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="type">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.FindTypePermissionObject``1">
+            <summary>
+                <para> </para>
+            </summary>
+            <returns> </returns>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.ID">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.IsAdministrative">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.Name">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.ParentRoles">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.SetAssociationMemberPermissions(DevExpress.Persistent.BaseImpl.EF.TypePermissionObject,DevExpress.Persistent.BaseImpl.EF.SecuritySystemMemberPermissionsObject,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="typePermissionObject">
+		 
+            </param>
+            <param name="memberPermissionObject">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.SetAssociationTypePermissions(DevExpress.Persistent.BaseImpl.EF.TypePermissionObject,System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="typePermissionObject">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.SetTypePermissions(System.Type,System.String,DevExpress.ExpressApp.Security.Strategy.SecuritySystemModifier)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="type">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+            <param name="securitySystemModifier">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.SetTypePermissions``1(System.String,DevExpress.ExpressApp.Security.Strategy.SecuritySystemModifier)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="operations">
+		 
+            </param>
+            <param name="securitySystemModifier">
+		 
+            </param>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.SetTypePermissionsRecursively(System.Type,System.String,DevExpress.ExpressApp.Security.Strategy.SecuritySystemModifier)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="targetType">
+		 
+            </param>
+            <param name="operations">
+		 
+            </param>
+            <param name="modifier">
+		 
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.Role.SetTypePermissionsRecursively``1(System.String,DevExpress.ExpressApp.Security.Strategy.SecuritySystemModifier)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="operations">
+		 
+            </param>
+            <param name="modifier">
+		 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.TypePermissions">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.Role.Users">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="T:DevExpress.Persistent.BaseImpl.EF.User">
+
+            <summary>
+                <para>An XAF user who has a list of associated security roles.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.User.#ctor">
+            <summary>
+                <para> </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.User.ChangePasswordOnFirstLogon">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.User.ID">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.User.IsActive">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="E:DevExpress.Persistent.BaseImpl.EF.User.PropertyChanged">
+            <summary>
+                <para> </para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.User.Roles">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="F:DevExpress.Persistent.BaseImpl.EF.User.ruleId_RoleRequired">
+            <summary>
+                <para> </para>
+            </summary>
+            <returns> </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Persistent.BaseImpl.EF.User.ruleId_UserNameIsUnique">
+            <summary>
+                <para> </para>
+            </summary>
+            <returns> </returns>
+
+
+        </member>
+        <member name="F:DevExpress.Persistent.BaseImpl.EF.User.ruleId_UserNameRequired">
+            <summary>
+                <para> </para>
+            </summary>
+            <returns> </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.User.SetPassword(System.String)">
+            <summary>
+                <para> </para>
+            </summary>
+            <param name="password">
+		 
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.User.StoredPassword">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.User.UserName">
+            <summary>
+                <para> </para>
+            </summary>
+            <value> </value>
+
+
+        </member>
+        <member name="T:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect">
+
+            <summary>
+                <para>The entity used to store model difference aspects in the database.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ModelDifferenceAspect class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect.DisplayName">
+            <summary>
+                <para>Gets the <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo(v=vs.85).aspx">language code</a> of the current ModelDifferenceAspect object, or the "(Default language)" text.
+</para>
+            </summary>
+            <value>A string which specifies the name of the current model difference aspect, or "(Default language)" if the aspect name is empty (if the current aspect specifies culture-neutral model differences).
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect.ID">
+            <summary>
+                <para>Specifies the ModelDifferenceAspect identifier
+</para>
+            </summary>
+            <value>An integer which is the entity identifier.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect.Name">
+            <summary>
+                <para>Specifies the <a href="http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo(v=vs.85).aspx">language code</a> of the current ModelDifferenceAspect object. The empty value means that the current aspect specifies culture-neutral model differences.
+</para>
+            </summary>
+            <value>A string which specifies the name of the current model difference aspect.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect.Owner">
+            <summary>
+                <para>Specifies the <see cref="T:DevExpress.Persistent.BaseImpl.EF.ModelDifference"/> object the current ModelDifferenceAspect belongs to.
+</para>
+            </summary>
+            <value>A the <see cref="T:DevExpress.Persistent.BaseImpl.EF.ModelDifference"/> object specifying the model differences object that owns the current aspect.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifferenceAspect.Xml">
+            <summary>
+                <para>Specifies the XML code of the current ModelDifferenceAspect object.
+</para>
+            </summary>
+            <value>A string which is the XML code of the current model difference aspect.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.Persistent.BaseImpl.EF.ModelDifference">
+
+            <summary>
+                <para>The entity used to store model differences in the database.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.ModelDifference.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ModelDifference class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifference.Aspects">
+            <summary>
+                <para>Gets a list of model difference aspects associated with the ModelDifference object.
+</para>
+            </summary>
+            <value>An <b>IList&lt;</b><see cref="T:DevExpress.ExpressApp.IModelDifferenceAspect"/><b>&gt;</b> list of model difference aspects.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifference.ContextId">
+            <summary>
+                <para>Specifies the context identifier of the current ModelDifference object that allows distinguishing model differences designed for different applications using the same database.
+
+</para>
+            </summary>
+            <value>A string which is the context identifier.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifference.ID">
+            <summary>
+                <para>Specifies the ModelDifference identifier.
+</para>
+            </summary>
+            <value>An integer which is the entity identifier.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifference.UserId">
+            <summary>
+                <para>Specifies the identifier of a user who owns the current ModelDifference object.
+</para>
+            </summary>
+            <value>A string which is the identifier of a user who owns the current model differences.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifference.UserName">
+            <summary>
+                <para>Gets the name of a user who owns the current ModelDifference object.
+</para>
+            </summary>
+            <value>A string which is the name of a user who owns the current model differences.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ModelDifference.Version">
+            <summary>
+                <para>Specifies the version of the current ModelDifference object.
+</para>
+            </summary>
+            <value>An integer value which is the version number of the model differences object.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.Persistent.BaseImpl.EF.ReportDataV2">
+
+            <summary>
+                <para>The entity class used to store reports in the Reports V2 Module.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ReportDataV2 class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.#ctor(System.Type)">
+            <summary>
+                <para>Initializes a new instance of the ReportDataV2 class.
+</para>
+            </summary>
+            <param name="dataType">
+		A <see cref="T:System.Type"/> object specifying the data type that the report data source is bound to.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.Content">
+            <summary>
+                <para>Specifies the report content.
+</para>
+            </summary>
+            <value>A byte array that is the report content.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.DataTypeCaption">
+            <summary>
+                <para>Gets the type caption of persistent objects that are displayed within the report.
+</para>
+            </summary>
+            <value>A string that specifies the type caption of persistent objects that are displayed within the report.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.DataTypeName">
+            <summary>
+                <para>Gets the name of the report's data type.
+</para>
+            </summary>
+            <value>A string which is the name of the report's data type.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.DisplayName">
+            <summary>
+                <para> Specifies the report's display name.
+</para>
+            </summary>
+            <value>A string which is the report's display name.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.ID">
+            <summary>
+                <para>Specifies the ReportDataV2 identifier.
+</para>
+            </summary>
+            <value>An integer which is the entity identifier.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.IsInplaceReport">
+            <summary>
+                <para>Specifies whether or not the report is inplace.
+</para>
+            </summary>
+            <value><b>true</b>, if the report is inplace; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.IsPredefined">
+            <summary>
+                <para>Gets a boolean value that indicates whether or not the report is predefined.
+</para>
+            </summary>
+            <value><b>true</b>, if a report is predefined in code; <b>false</b>, if a report is created at runtime.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.ParametersObjectType">
+            <summary>
+                <para>Specifies the type of the reports parameter object.
+</para>
+            </summary>
+            <value>A <b>System.Type</b> of an object that specifies report parameters (typically, the <see cref="T:DevExpress.ExpressApp.ReportsV2.ReportParametersObjectBase"/> descendant).
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.ParametersObjectTypeName">
+            <summary>
+                <para>Specifies the name of the reports parameter object type.
+</para>
+            </summary>
+            <value>A string which is the name of the reports parameter object type.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.PredefinedReportType">
+            <summary>
+                <para>Specifies the type of the predefined report.
+</para>
+            </summary>
+            <value>A <b>System.Type</b> object that specifies the type of the predefined report.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.ReportDataV2.PredefinedReportTypeName">
+            <summary>
+                <para>Specifies the name of the reports parameter object type.
+</para>
+            </summary>
+            <value>A string which is the name of the reports parameter object type.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.Persistent.BaseImpl.EF.MediaDataObject">
+
+            <summary>
+                <para>The entity used to store media data in the database.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.#ctor">
+            <summary>
+                <para>Initializes a new instance of the MediaDataObject class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.Id">
+            <summary>
+                <para>Specifies the MediaDataObject identifier.
+</para>
+            </summary>
+            <value>An integer which is the entity identifier.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.MediaData">
+            <summary>
+                <para>Specifies a byte array with media data that is loaded from a database on demand when required.
+</para>
+            </summary>
+            <value>A byte array object that is loaded from a database on demand when required.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.MediaDataKey">
+            <summary>
+                <para>Specifies a key value associated with the <see cref="P:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.MediaData"/> byte array.
+
+</para>
+            </summary>
+            <value>A string which is a key value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.MediaResource">
+            <summary>
+                <para>Specifies the <b>MediaResourceObject</b> object which exposes the <b>MediaData</b> property of the byte array type.
+</para>
+            </summary>
+            <value>The <b>MediaResourceObject</b> object which exposes the <b>MediaData</b> property of the byte array type.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.OnCreated">
+            <summary>
+                <para>Called by the Object Space when the current MediaDataObject is created.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.OnLoaded">
+            <summary>
+                <para>Called by the Object Space when the current MediaDataObject is loaded.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.Persistent.BaseImpl.EF.MediaDataObject.OnSaving">
+            <summary>
+                <para>Called by the Object Space when the current MediaDataObject is saved or deleted.
+</para>
+            </summary>
+
+
+        </member>
+    </members>
+</doc>

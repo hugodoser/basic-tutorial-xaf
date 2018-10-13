@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="XAF1" Logo="ExpressAppLogo">
+  <BOModel>
+    <Class Name="XAF1.Module.BusinessObjects.Marketing.Customer" ImageName="BO_Customer" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Planning">
+        <Items>
+          <Item Id="@4ff29901-2ab8-4ccd-8628-304bc78c4c83" Caption="Employee" ViewId="Person_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.2.9.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
